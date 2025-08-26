@@ -2189,7 +2189,7 @@ header .main-menu .menu_cart .check_out {
     font-size: 15px;
     font-weight: 700;
     text-align: center;
-    width: 33.335%;
+    width: 50%;
     background-color: #19B5FE;
     color: #fff;
     border-top: 1px solid #fafafa;
@@ -2211,6 +2211,7 @@ header .main-menu .menu_cart .check_out {
 }
 
 .classes .class-item .content {
+    height: 200px;
     padding: 20px;
     background-color: #fafafa;
     transition: .25s;
@@ -6772,4 +6773,34 @@ header.header-two ul.menu {
 .shop-menu li .shop-submenu li a.active,
 .shop-menu li .shop-submenu li a:hover {
     color: #19B5FE;
+}
+
+.letra1{
+   color: #e84b3a;
+   font-size: 30px;
+}
+
+.letra2{
+    color: #0fb9b1;
+    font-size: 30px;
+}
+
+.letra3{
+    color: #fc7f0c;
+    font-size: 30px;
+}
+
+.letra4{
+    color: #19B5FE;
+    font-size: 30px;
+}
+
+.letra5{
+    color: #9001ff;
+    font-size: 30px;
+}
+
+.letra6{
+    font-size: 30px;
+    color: #fc7f0c;
 }
