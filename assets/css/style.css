@@ -1386,7 +1386,7 @@ header .main-menu .menu_cart .check_out {
 
 .banner .banner-item .banner-content h2 {
     display: inline-block;
-    color: #fff;
+    color: #fcb614;
     font-size: 50px;
     line-height: 1;
     margin-bottom: 10px;
@@ -1398,18 +1398,24 @@ header .main-menu .menu_cart .check_out {
 }
 
 .banner .banner-item .banner-content h3 {
+    display: inline-block;
     color: #fff;
-    font-size: 36px;
-    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 10px;
     transition: .5s ease-out;
     -webkit-transition: .5s ease-out;
+    transition-delay: .5s;
+    -webkit-transition-delay: .5s;
     opacity: 1;
 }
 
 
 .banner .banner-item .banner-content p {
     color: #fff;
-    max-width: 570px;
+    max-width: 600px;
+    text-align: justify;
     transition: .3s ease-out;
     -webkit-transition: .3s ease-out;
     transition-delay: 1s;
@@ -3121,6 +3127,10 @@ header .main-menu .menu_cart .check_out {
 
 /*  13  - Testimonial
 ----------------------------------------------*/
+.testimonial{
+    background-color: #fffc9a;
+}
+
 .testimonial .testimonial-item {
     position: relative;
 }
@@ -3160,7 +3170,7 @@ header .main-menu .menu_cart .check_out {
     top: -5px;
     left: -2px;
     font-size: 22px;
-    background: #fff;
+    background-color: #fffc9a;
     color: #0fb9b1;
     line-height: 24px;
     padding-right: 10px;
@@ -3194,7 +3204,7 @@ header .main-menu .menu_cart .check_out {
     bottom: -5px;
     right: -2px;
     font-size: 22px;
-    background: #fff;
+    background-color: #fffc9a;
     color: #0fb9b1;
     line-height: 24px;
     padding-left: 10px;
@@ -6132,8 +6142,8 @@ footer .footer-item .photos li img {
 }
 
 footer .footer-bottom {
-    border-top: 1px solid #eeefee;
-    background-color: #fafafa;
+    border-top: 6px solid #f70000;
+    background-color: #ffffff;
     padding: 30px 0px;
 }
 
@@ -6141,6 +6151,7 @@ footer .footer-bottom p {
     font-weight: 700;
     margin: 0px;
     line-height: 40px;
+    text-align: center;
 }
 
 footer .footer-bottom p a {

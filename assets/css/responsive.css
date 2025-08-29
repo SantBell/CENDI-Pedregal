@@ -192,6 +192,10 @@
 	header .main-menu .menu-search {
 		margin-top: 20px;
 	}
+
+	.banner .banner-item .banner-content {
+    padding: 250px 250px 250px 0px;
+}
 }
 
 @media only screen and (max-width: 991px) {
@@ -466,7 +470,6 @@
 
 @media only screen and (max-width: 767px) {
 
-
 	.banner .item .banner-content {
 		padding: 100px 0px;
 	}
@@ -648,6 +651,10 @@
 		width: 100%;
 	}
 
+	.banner .banner-item .banner-content {
+    padding: 200px 150px 250px 0px;
+	}
+
 }
 
 @media only screen and (max-width: 680px) {
@@ -764,11 +771,12 @@
 	.gallery .section-header {
 		padding-inline: 12px;
 	}
+
 }
 
 
-@media only screen and (min-width:1200px) {
+/* @media only screen and (min-width:1200px) {
 	.container {
 		max-width: 1170px;
 	}
-}
+} */
