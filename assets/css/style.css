@@ -6815,3 +6815,16 @@ header.header-two ul.menu {
     font-size: 30px;
     color: #fc7f0c;
 }
+
+.whatsapp{
+	position:fixed;
+	left:10px;
+	bottom:10px;
+	text-align:center;
+	padding:3px; z-index:999;
+}
+  
+.whatsapp img{
+	width: 100px;
+	height: 100px;
+}
