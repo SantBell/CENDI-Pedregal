@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>CENDI Pedregal</title>
+	<link href="images/favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font-awesome -->
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Flaticon -->
+  <link href="assets/flaticon/flaticon.css" rel="stylesheet">
+
+  <!-- lightcase -->
+  <link href="assets/css/lightcase.css" rel="stylesheet">
+
+  <!-- Swiper -->
+  <link href="assets/css/swiper.min.css" rel="stylesheet">
+
+  <!-- quick-view -->
+  <link href="assets/css/quick-view.css" rel="stylesheet">
+
+  <!-- nstSlider -->
+  <link href="assets/css/jquery.nstSlider.css" rel="stylesheet">
+
+  <!-- flexslider -->
+  <link href="assets/css/flexslider.css" rel="stylesheet">
+
+  <!-- Style -->
+  <link href="assets/css/rtl.css" rel="stylesheet">
+
+  <!-- Style -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Responsive -->
+  <link href="assets/css/responsive.css" rel="stylesheet">
+
+
+</head>
+
+<body id="scroll-top">
+  <!-- Preloader start here -->
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+  <!-- Preloader end here -->
+
+
+  <!-- mobile menu start here -->
+	<div class="mobile-menu-area">
+		<div class="logo-area">
+			<a class="logo" href="index.html"><img src="images/logo.png" alt="logo" class="img-responsive"></a>
+			<button type="button" class="navbar-toggle collapsed d-lg-none" data-toggle="collapse"
+				data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+
+		<div class="mobile-menu">
+			<ul class="m-menu">				
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="about.html">Nosotros</a></li>
+				<li><a href="services.html">Servicios</a></li>
+				<li class="active"><a href="gallery.html">Galeria</a></li>
+				<li><a href="contact.html">Contacto</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- mobile menu ending here -->
+
+
+	<header>
+		<div class="main-menu">
+			<div class="container">
+				<div class="row no-gutters">
+					<nav class="main-menu-area w-100">
+						<div class="logo-area">
+							<a class="" href="index.html"><img src="images/logo.png" alt="logo"
+									class="img-responsive"></a>
+							<button type="button" class="navbar-toggle collapsed d-lg-none" data-toggle="collapse"
+								data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+
+						<div class="menu-area">
+							<ul class="menu">
+								<li><a href="index.html">Inicio</a></li>
+								<li><a href="about.html">Nosotros</a></li>
+								<li><a href="services.html">Servicios</a></li>
+								<li class="active"><a href="gallery.html">Galeria</a></li>
+								<li><a href="contact.html">Contacto</a></li>
+							</ul>
+							<form class="menu-search-form">
+								<input type="text" name="search" placeholder="Search here...">
+								<span class="menu-search-close"><i class="fa fa-times" aria-hidden="true"></i></span>
+							</form>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- header End here -->
+
+
+  <!-- Page Header Start here -->
+  <section class="page-header section-notch">
+    <div class="overlay">
+      <div class="container">
+        <h3>Nuestra Galeria</h3>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li>-</li>
+          <li>Galeria</li>
+        </ul>
+      </div><!-- container -->
+    </div><!-- overlay -->
+  </section><!-- page header -->
+  <!-- Page Header End here -->
+
+
+  <!-- Gallery Start here -->
+  <section class="gallery padding-120">
+    <div class="container">
+      <ul class="gallery-menu">
+        <li class="active" data-filter="*">Todas</li>
+        <li data-filter=".branding">Salas</li>
+        <li data-filter=".packing">Eventos</li>
+        <li data-filter=".development">Actividades</li>
+        <li data-filter=".photography">Guarderia</li>
+      </ul>
+
+      <div class="gallery-items">
+        <div class="gallery-item photography">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_guard_01.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_guard-bg_01.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Punto de reunión</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_LA_01.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_LA-bg_01.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Lactantes A</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_MB2_01.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_MB2-bg_01.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Maternal B2</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item photography">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_guard_02.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_guard-bg_02.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Acceso</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_LA_02.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_LA-bg_02.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Lactantes A</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item packing">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_evento_01.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_evento-bg_01.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Evento</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_MB2_02.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_MB2-bg_02.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Maternal B2</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_LB_02.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_LB-bg_02.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Lactantes B</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_LA_03.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_LA-bg_03.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Lactantes A</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_MA_01.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_MA-bg_01.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Maternal A</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item packing">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_evento_02.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_evento-bg_02.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Evento</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_LC_01.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_LC-bg_01.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Lactantes C</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item photography">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_guard_03.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_guard-bg_03.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Filtro</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <!-- <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_MB2_03.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_MB2-bg_03.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Maternal B2</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div> --><!-- gallery item -->
+        <div class="gallery-item photography">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_guard_04.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_guard-bg_04.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Recibidor</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_MC1_01.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_MC1-bg_01.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Maternal C1</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_LC_02.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_LC-bg_02.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Lactantes C</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item photography">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_guard_05.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_guard-bg_05.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Escaleras seguras</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_MA_02.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_MA-bg_02.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Maternal A</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_MC1_02.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_MC1-bg_02.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Maternal C1</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_LC_03.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_LC-bg_03.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Lactantes C</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_LB_03.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_LB-bg_03.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Lactantes B</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_MC1_03.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_MC1-bg_03.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Maternal C1</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item photography">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_guard_06.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_guard-bg_06.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Biblioteca</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_MA_03.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_MA-bg_03.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Maternal A</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_MC2_01.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_MC2-bg_01.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Maternal C2</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item photography">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_guard_07.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_guard-bg_07.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Área de juegos</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_MB1_01.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_MB1-bg_01.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Maternal B1 A</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_MC2_02.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_MC2-bg_02.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Maternal C2</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item photography">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_guard_08.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_guard-bg_08.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Fachada</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item photography">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_guard_09.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_guard-bg_09.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Cocina</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_LB_01.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_LB-bg_01.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Lactantes B</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item photography">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_guard_10.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_guard-bg_109.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Alguna sala</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_MC2_03.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_MC2-bg_03.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Maternal C2</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_MB1_02.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_MB1-bg_02.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Maternal B1 A</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item photography">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_guard_11.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_guard-bg_11.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Alguna sala</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item photography">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_guard_12.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_guard-bg_12.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Entrada principal</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+        <div class="gallery-item branding">
+          <div class="gallery-image">
+            <img src="images/gallery/gallery_MB1_03.jpg" alt="gallery image" class="img-responsive">
+            <div class="gallery-overlay">
+              <div class="bg"></div>
+            </div>
+            <div class="gallery-content">
+              <a href="images/gallery/gallery_MB1-bg_03.jpg" data-rel="lightcase:myCollection"><i
+                  class="icon flaticon-expand"></i></a>
+              <h4>Maternal B1 A</h4>
+              <span>CENDI Pedregal</span>
+            </div>
+          </div>
+        </div><!-- gallery item -->
+      </div><!-- gallery items -->
+    </div><!-- container -->
+  </section><!-- gallery -->
+  <!-- Gallery End here -->
+
+  <!-- Footer Start here -->
+	<footer>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-xs-12">
+						<p>&copy; 2025. Derechos Reservados - <span class="letra1">C</span><span class="letra2">E</span><span class="letra3">N</span><span class="letra4">D</span><span class="letra5">I</span> <span class="letra6">Pedregal</span></p>
+					</div>
+				</div><!-- row -->
+			</div><!-- container -->
+		</div><!-- footer bottom -->
+	</footer>
+  <a class="page-scroll scroll-top" href="#scroll-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+	<!-- Footer End here -->
+
+
+  <!-- jquery -->
+  <script src="assets/js/jquery-1.12.4.min.js"></script>
+
+  <!-- Bootstrap -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Isotope -->
+  <script src="assets/js/isotope.min.js"></script>
+
+  <!-- lightcase -->
+  <script src="assets/js/lightcase.js"></script>
+
+  <!-- counterup -->
+  <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script> -->
+  <script src="assets/js/jquery.counterup.min.js"></script>
+
+  <!-- Swiper -->
+  <script src="assets/js/swiper.jquery.min.js"></script>
+
+  <!--progress-->
+  <script src="assets/js/circle-progress.min.js"></script>
+
+  <!--velocity-->
+  <script src="assets/js/velocity.min.js"></script>
+
+  <!--quick-view-->
+  <script src="assets/js/quick-view.js"></script>
+
+  <!--nstSlider-->
+  <script src="assets/js/jquery.nstSlider.js"></script>
+
+  <!--flexslider-->
+  <script src="assets/js/flexslider-min.js"></script>
+
+  <!--easing-->
+  <script src="assets/js/jquery.easing.min.js"></script>
+
+  <!--coundown-->
+  <script src="assets/js/coundown.js"></script>
+
+  <!-- custom -->
+  <script src="assets/js/custom.js"></script>
+
+
+</body>
+
+</html>
