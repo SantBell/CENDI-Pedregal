@@ -1704,10 +1704,11 @@ header .main-menu .menu_cart .check_out {
     height: 50px;
     width: 50px;
     background-color: #19B5FE;
-    color: #fff;
-    font-size: 16px;
+    color: #000;
+    font-size: 30px;
     text-align: center;
     line-height: 50px;
+    border-radius: 25%;
     position: fixed;
     top: 85%;
     right: 10%;
@@ -1716,7 +1717,6 @@ header .main-menu .menu_cart .check_out {
     -webkit-transform: scale(0);
     transform: scale(0);
     -webkit-transition: .5s ease-out;
-    ;
     transition: .5s ease-out;
 }
 
@@ -3233,11 +3233,14 @@ header .main-menu .menu_cart .check_out {
 
 .testimonial .testimonial-details p {
     margin-bottom: 5px;
+    text-align: justify;
 }
 
 .testimonial .testimonial-details h4 {
     font-size: 20px;
     color: #e84b3a;
+    text-align: center;
+    margin-top: 25px;
 }
 
 .testimonial .testimonial-details h4 span {
@@ -6815,16 +6818,24 @@ header.header-two ul.menu {
     font-size: 30px;
     color: #fc7f0c;
 }
-
-.whatsapp{
-	position:fixed;
-	left:10px;
-	bottom:10px;
-	text-align:center;
-	padding:3px; z-index:999;
+ 
+.redes {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 10px; /* Establecemos la barra en la izquierda */
+	Bottom: 10px; /* Subimos la barra 10px de abajo hacia arriba*/
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
 }
-  
-.whatsapp img{
-	width: 100px;
-	height: 100px;
+
+.redes ul {
+    list-style: none;
+}
+
+.redes ul li a {
+    display: inline-block;
+    width: 70px;
+    padding: 5px;
+    text-decoration: none;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
 }
